@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_ascending"
+        android:icon="@drawable/ic_action_ascending"
+        android:title="@string/action_ascending"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_descending"
+        android:icon="@drawable/ic_action_descending"
+        android:title="@string/action_descending"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_100_level"
+        android:orderInCategory="100"
+        android:title="@string/action_100_level"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_200_level"
+        android:orderInCategory="200"
+        android:title="@string/action_200_level"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_300_level"
+        android:orderInCategory="300"
+        android:title="@string/action_300_level"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_400_level"
+        android:orderInCategory="400"
+        android:title="@string/action_400_level"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="500"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

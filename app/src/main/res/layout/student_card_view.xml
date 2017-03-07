@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/student_card_view"
+
+        card_view:cardElevation="2dp"
+        card_view:contentPadding="5dp"
+        android:layout_marginBottom="2dp">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/cardview_shadow_end_color">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/student_name"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/student_name"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/student_matric"
+                    android:textColor="@color/light_black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/student_matric"
+                    android:textStyle="normal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/student_mode_of_entry"
+                    android:textColor="@color/blue"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/student_mode_of_entry"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:textStyle="normal"
+                    />
+
+                <TextView
+                    android:layout_width="46dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/student_cgpa"
+                    android:id="@+id/student_cgpa"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="true"
+                    android:textStyle="italic|normal"
+                    android:gravity="end"
+                    android:layout_gravity="end|right"
+                    android:layout_weight="0.95" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

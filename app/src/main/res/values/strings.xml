@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">See-GPA</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Strings related to login -->
+
+    <string name="user_login">Sign In</string>
+    <string name="keep_me_in">Keep me logged in</string>
+    <string name="title_activity_user_registration">Registration</string>
+    <string name="action_create_now">Create Account</string>
+    <string name="action_create_new">Create Account</string>
+    <string name="prompt_name">Name</string>
+    <string name="action_logout">Log out</string>
+    <string name="prompt_first_name">First Name</string>
+    <string name="prompt_last_name">Last Name</string>
+    <string name="prompt_phone">Phone No.</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+    <string name="error_field_match">Password not Matched</string>
+    <string name="prompt_dept">Department</string>
+    <string name="action_reg">Create</string>
+    <string name="prompt_email">Email</string>
+    <string name="title_activity_standard_dashboard">StandardDashboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_reg_screen_activity">New Account</string>
+    <string name="title_sign_in_activity">Sign In</string>
+    <string name="email_result">Email Results</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="recommeded">Recommended Apps</string>
+    <string name="credits">Credits</string>
+    <string name="abouts">About</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="feedback">Feedback</string>
+    <string name="error_invalid_matric">Invalid Matric No.</string>
+    <string name="personalize_on_dashboard">Personalize\nChange grade point scale and many more...</string>
+    <string name="bar_chart_heading">Bar Chart</string>
+    <string name="line_chart_heading">Line Chart</string>
+    <string name="Chart">Chart Analysis</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+    <string name="student_name">Ahmed Olawale</string>
+    <string name="student_matric">185648</string>
+    <string name="student_cgpa">6.9</string>
+    <string name="title_activity_student_details">Student Details</string>
+    <string name="forgot_password">forgot passowrd?</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_ascending">CGPA Ascending</string>
+    <string name="action_descending">CGPA Descending</string>
+    <string name="action_100_level">100 Level</string>
+    <string name="action_200_level">200 Level</string>
+    <string name="action_300_level">300 Level</string>
+    <string name="action_400_level">400 Level</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="level_100">100 Level</string>
+    <string name="student_mode_of_entry">UTME</string>
+    <string name="title_activity_student_details_list">Student Details List</string>
+    <string name="dormant_course_code">CSC101</string>
+    <string name="dormant_unit">Unit:</string>
+    <string name="dormant_score">Score:</string>
+    <string name="dormant_grade">Grade:</string>
+    <string name="name_on_analysis">Name:</string>
+    <string name="matric_on_analysis">Matric No:</string>
+    <string name="level_on_analysis"></string>
+    <string name="courses_taken_on_analysis">sdfgdszx</string>
+    <string name="gp_system_on_analysis">7</string>
+    <string name="level_gpa_on_analysis">Level</string>
+    <string name="class_of_grade_on_analysis">Class of Grade:</string>
+    <string name="year_of_entry">Year of Entry:</string>
+    <string name="no_of_courses_taken">Course Taken:</string>
+    <string name="mode_of_entry">Mode of Entry:</string>
+    <string name="unit_reg">Total Units Registered:</string>
+    <string name="units_passed">Total Units Passed:</string>
+    <string name="cgpa">Comm. Grade Point Av. :</string>
+    <string name="class_of_grade">Class of Grade:</string>
+    <string name="title_activity_test_student_details_list">Student Details</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="action_table_view">Table View</string>
+    <string name="title_activity_chart_analysis">Chart Analysis</string>
+    <string name="class_of_grade_table">Class of Grade Table</string>
+    <string name="class_of_grade_bar_chart">Class of Grade Bar Chart</string>
+    <string name="seven_point_scale">7 - Point Scale</string>
+    <string name="five_point_scale">5 - Point Scale</string>
+    <string name="four_point_scale">4 - Point Scale</string>
+    <string name="class_of_grade_pie_chart">Class of Grade Pie Chart</string>
+</resources>

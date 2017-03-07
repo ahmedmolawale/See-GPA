@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Grade System">
+        <menu>
+            <item
+                android:id="@+id/nav_gp_7"
+                android:icon="@drawable/ic_action_seven_point_scale"
+                android:title="@string/seven_point_scale"
+                />
+            <item
+                android:id="@+id/nav_gp_5"
+                android:icon="@drawable/ic_action_five_point_scale"
+                android:title="@string/five_point_scale" />
+            <item
+                android:id="@+id/nav_gp_4"
+                android:icon="@drawable/ic_action_four_point_scale"
+                android:title="@string/four_point_scale" />
+        </menu>
+    </item>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

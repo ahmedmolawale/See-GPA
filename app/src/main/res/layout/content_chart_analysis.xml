@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_chart_analysis"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.epsilon.see_gpa.ChartAnalysis"
+    tools:showIn="@layout/chart_analysis">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/class_of_grade_table"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TableLayout
+            android:id="@+id/class_of_grade_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="*"
+            android:padding="10dp"
+            android:stretchColumns="*"
+            ></TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/class_of_grade_bar_chart"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/class_of_grade_bar_chart"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="25dp">
+
+        </com.github.mikephil.charting.charts.BarChart>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/class_of_grade_pie_chart"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:id="@+id/class_of_grade_pie_chart"
+            >
+
+        </com.github.mikephil.charting.charts.PieChart>
+
+    </LinearLayout>
+
+</ScrollView>
